@@ -1,0 +1,17 @@
+[project]
+name = "graph-rag-system"
+version = "0.1.0"
+description = "GraphRAG Implementation with Neo4j and Entity Extraction"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain[openai]>=1.0.0",
+    "langchain-neo4j>=0.1.0",
+    "langchain-text-splitters>=0.1.0",
+    "pydantic>=2.0.0",
+    "pypdf>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "langchain-community>=0.4.2",
+]
+
+[tool.uv]

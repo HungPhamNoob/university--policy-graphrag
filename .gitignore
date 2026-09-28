@@ -1,0 +1,48 @@
+# --- Secrets & local config (NEVER commit) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# --- Personal / non-shareable docs ---
+cv.md
+CV.md
+problem.txt
+
+# --- Pipeline outputs & artifacts ---
+results/
+result/
+*.log
+reports/
+faiss_index/
+*.sqlite
+*.dump
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Neo4j local data ---
+neo4j-data/
+data/dump/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
